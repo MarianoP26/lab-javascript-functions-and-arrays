@@ -148,7 +148,6 @@ function greatestProduct(matrix) {
   for(let i = 0; i < oneDimMatrix.length / 2; i++){
     if (prod > max) max = prod;
     prod = oneDimMatrix[i] * oneDimMatrix[i + 20] * oneDimMatrix[i + 40] * oneDimMatrix[i + 60];
-    console.log(`${i} - ${prod} - Resultado de ${oneDimMatrix[i]} * ${oneDimMatrix[i + 20]} * ${oneDimMatrix[i + 40]} * ${oneDimMatrix[i + 60]}`);
   }
   return max;
 }
